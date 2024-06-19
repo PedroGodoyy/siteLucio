@@ -1,0 +1,123 @@
+.logo-search-container {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    margin-right: 10px;
+}
+.search {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+.search input[type="text"] {
+    margin-right: 5px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+header, nav {
+    background-color: #fff;
+    color: #000000;
+    padding: 10px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    box-shadow: 0 10px 50px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#links{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 1.3em;
+    transition: all .2s ease-in-out;
+}
+
+nav a:hover{
+    color: #585858;
+    transition: all .3s ease-in-out;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100%; 
+    box-sizing: border-box;
+}
+
+.paralax{
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1000px;
+}
+
+.paralax h1{
+    margin-left: 2em;
+    color: #070707;
+    font-size: 5em;
+    padding-top: 3em;
+    margin-top: 0;
+}
+
+.paralaxney {
+    background-image: url("../img/ney1.jpg");
+}
+
+.paralaxgri{
+    background-image: url("../img/griezmann.jpg");
+}
+
+.produto {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.imgtenis{
+    width: 33%;
+    height: auto;
+}
+
+.prods h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 3em;
+}
+
+button.add-carrinho {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#carrinho-sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-left: 1px solid #ccc;
+    height: 100%;
+    overflow-y: auto;
+}
